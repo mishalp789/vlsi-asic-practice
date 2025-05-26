@@ -1,0 +1,5 @@
+read_verilog counter_4bit.v
+synth -top counter_4bit
+write_json counter_4bit.json
+show -format dot -prefix counter_4bit
+
